@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Twitter like char remaining</title>
+
+    <!-- JS JQUERY -->
     <script type="text/javascript" src="public/lib/jquery.js"></script>
+
+    <!-- JS CHARACTER COUNTDOWN -->
     <script type="text/javascript" src="public/js/charCountDown.js"></script>
 
+    <!-- JS CUSTOM -->
     <script type="text/javascript">
         $(document).ready(function(){
             $('.message').change(function(){
-                updateCountdown(140, 'message', ' remaining. ', 'countdown')
+                updateCountdown(140, 'message', ' characters remaining.', 'countdown')
             });
             $('.message').keyup(function(){
-                updateCountdown(140, 'message', ' remaining. ', 'countdown')
+                updateCountdown(140, 'message', ' characters remaining.', 'countdown')
             });
         });
     </script>

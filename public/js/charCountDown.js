@@ -7,5 +7,4 @@ function updateCountdown(max, userInput, extendedMessage, countdownAreaClass) {
 
     //ADD REMAINING
     $(area).text(remaining + extendedMessage);
-    console.log(remaining);
 }
