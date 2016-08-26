@@ -1,6 +1,6 @@
-function updateCountdown(max, userInput, extendedMessage, countdownAreaClass) {
+function updateCountdown(max, userInputClass, extendedMessage, countdownAreaClass) {
     //ASSIGN VARIABLES
-    var ui = '.' + userInput;
+    var ui = '.' + userInputClass;
     var area = '.' + countdownAreaClass;
 
     var remaining = max - $(ui).val().length;
