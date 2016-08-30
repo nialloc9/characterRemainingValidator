@@ -1,3 +1,4 @@
+//SINGLE USER INPUT
 function updateCountdown(max, userInputClass, extendedMessage, countdownAreaClass) {
     //ASSIGN VARIABLES
     var ui = '.' + userInputClass;

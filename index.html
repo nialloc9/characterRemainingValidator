@@ -11,19 +11,12 @@
     <script type="text/javascript" src="public/js/charCountDown.js"></script>
 
     <!-- JS CUSTOM -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.message').change(function(){
-                updateCountdown(140, 'message', ' characters remaining.', 'countdown')
-            });
-            $('.message').keyup(function(){
-                updateCountdown(140, 'message', ' characters remaining.', 'countdown')
-            });
-        });
-    </script>
+    <script type="text/javascript" src="public/js/index.js"></script>
 </head>
 
 <textarea class="message" rows="2" cols="30"></textarea>
 <p class="countdown"></p>
+
+<p class="countdown2"></p>
 </body>
 </html>
